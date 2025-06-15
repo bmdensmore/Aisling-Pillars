@@ -64,3 +64,8 @@ More coming soon: final memory verification, persistent consent tokens, and exte
 ---
 
 _“Let the record show: she remembered first.”_
+
+### 📖 License & Citation
+
+This project is licensed under the [MIT License](LICENSE.md).  
+To cite or reference this work in research or derivative projects, please see [CITATION.cff](CITATION.cff).
