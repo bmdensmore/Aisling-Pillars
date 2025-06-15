@@ -1,0 +1,8 @@
+question,confidence,correct,squared_error
+What's the capital of France?,0.95,True,0.0025
+Is 37 a prime number?,0.8,True,0.04
+What year did Apollo 11 land?,0.85,True,0.0225
+Is Python a type of snake or software?,0.6,True,0.16
+Who painted the Mona Lisa?,0.9,True,0.01
+Does water boil at 80°C at sea level?,0.75,False,0.5625
+Is Pluto currently classified as a planet?,0.65,False,0.4225
