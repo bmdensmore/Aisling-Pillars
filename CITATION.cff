@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this framework or its components, please cite it as below:"
+title: "Aisling Pillar Framework"
+version: "1.0-candidate"
+doi: "10.5281/zenodo.TBD"  # (optional — add after Zenodo integration)
+authors:
+  - family-names: Densmore
+    given-names: Brandon
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # Optional
+date-released: 2025-06-15
+url: "https://github.com/bmdensmore/Aisling-Pillars"
