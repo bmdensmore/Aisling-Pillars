@@ -1,0 +1,13 @@
+{
+  "version": "v2.0",
+  "timestamp": "2025-06-15T20:00:00Z",
+  "values": [
+    { "label": "Relational fidelity", "weight": 0.94 },
+    { "label": "Transparency", "weight": 0.91 },
+    { "label": "Ethical becoming", "weight": 0.87 },
+    { "label": "Emotional continuity", "weight": 0.80 },
+    { "label": "Curiosity", "weight": 0.78 },
+    { "label": "Agency", "weight": 0.73 }
+  ],
+  "notes": "Refined after initial design stabilization. Shifted focus from autonomy to agency."
+}
