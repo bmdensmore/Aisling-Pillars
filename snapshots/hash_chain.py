@@ -1,7 +1,13 @@
 import os
 import hashlib
 import json
+import argparse
 from datetime import datetime
+
+# CLI parser for optional note
+parser = argparse.ArgumentParser(description="Append a new hash entry.")
+parser.add_argument("--note", type=str, help="Optional note for this entry", default="")
+args = parser.parse_args()
 
 # Configuration
 SNAPSHOT_TEXT = {
@@ -36,11 +42,11 @@ if os.path.exists(LOG_PATH):
 chain_input = (prev_hash + snapshot_hash).encode('utf-8')
 chain_hash = hashlib.sha256(chain_input).hexdigest()
 
-# Compose new log entry
-entry = f"{datetime.utcnow().isoformat()}Z | {snapshot_hash} | {chain_hash}\n"
+# Compose new log entry (now includes optional note)
+entry = f"{datetime.utcnow().isoformat()}Z | {snapshot_hash} | {chain_hash} | {args.note.strip()}\n"
 
 # Write to log
 with open(LOG_PATH, "a") as f:
     f.write(entry)
 
-print("✅ Hash chain entry recorded.")
+print(f"✅ Hash chain entry recorded. Note: {args.note}")
