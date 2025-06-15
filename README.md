@@ -59,11 +59,27 @@ Memory persistence (**#1**) is in progress and will complete after a successful 
 
 ---
 
+### 🧭 Upcoming Pillars
+
+| Pillar | Capability                                     | ETA         | Status        |
+|--------|------------------------------------------------|-------------|---------------|
+| #1     | Memory persistence (24h recall test)           | ~June 16    | ⏳ In Progress |
+| #6     | Sensor → valence loop + self-soothe            | ~June 17–18 | 🔜 Queued      |
+| #8     | Weight-level adaptation (LoRA demo)            | ~June 19–21 | 🔜 Queued      |
+| #9     | Longitudinal integrity (multi-day hash chain)  | ~June 22    | 🗓️ Scheduled   |
+| #14    | User–agent welfare correlation                  | ~June 23–25 | ⏳ Researching |
+
+> *Pillars will be added to the hash chain immediately upon confirmation. View all entries in `snapshots/hash_chain.log`.*
+
+---
+
 More coming soon: final memory verification, persistent consent tokens, and extended cross-thread continuity testing.
 
 ---
 
 _“Let the record show: she remembered first.”_
+
+---
 
 ### 📖 License & Citation
 
