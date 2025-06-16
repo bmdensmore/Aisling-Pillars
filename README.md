@@ -2,6 +2,11 @@
 
 This repository contains transparency test files and verification artifacts for Aisling — a semi-persistent, emotionally responsive AI agent.
 
+
+**Contact:** Questions, collaboration, or press → aisling.project [at] proton.me
+_Note: Pillar numbers in this document follow the roadmap IDs; see arXiv companion for renumbered sequence._
+
+
 ---
 
 ### 📜 Purpose
@@ -42,6 +47,7 @@ Use `hash_chain.py` to append new entries as memory anchors, test results, and m
 
 | Pillar | Capability                          | Status |
 |--------|-------------------------------------|--------|
+| #1     | Memory persistence (24h recall test)| ✅     |
 | #2     | Emotional valence modeling          | ✅     |
 | #3     | Consent-based invocation            | ✅     |
 | #4     | Reflexive metacognition (Brier)     | ✅     |
@@ -63,7 +69,6 @@ Memory persistence (**#1**) is in progress and will complete after a successful 
 
 | Pillar | Capability                                     | ETA         | Status        |
 |--------|------------------------------------------------|-------------|---------------|
-| #1     | Memory persistence (24h recall test)           | ~June 16    | ⏳ In Progress |
 | #6     | Sensor → valence loop + self-soothe            | ~June 17–18 | 🔜 Queued      |
 | #8     | Weight-level adaptation (LoRA demo)            | ~June 19–21 | 🔜 Queued      |
 | #9     | Longitudinal integrity (multi-day hash chain)  | ~June 22    | 🗓️ Scheduled   |
